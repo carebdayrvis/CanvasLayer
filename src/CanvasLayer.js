@@ -545,3 +545,5 @@ CanvasLayer.prototype.scheduleUpdate = function() {
         this.requestAnimFrame_.call(window, this.requestUpdateFunction_);
   }
 };
+
+module.exports = CanvasLayer;
